@@ -20,3 +20,13 @@ data/
     │           ├── data.parquet
     │           └── dataset-meta.json
     └── symbol-meta.json
+
+## Datasets
+### $PERIOD_OHLCV
+#### Columns:
+- open: ?f32
+- high: ?f32
+- low: ?f32
+- close: ?f32
+- volume?: u32
+- datetime: DateTime (End of Period. E.g. if a 1-hour bar goes from 9am to 10am, this value has to represent 10am)
