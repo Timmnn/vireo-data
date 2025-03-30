@@ -30,3 +30,11 @@ data/
 - close: ?f32
 - volume?: u32
 - datetime: DateTime (End of Period. E.g. if a 1-hour bar goes from 9am to 10am, this value has to represent 10am)
+
+## Data Generator
+This repository also includes a tool to generate fake data, to test things out.
+This can be used by navigating to /fake-data-generator/ filling out the example.config.json and running "cargo run;"
+
+
+## Metadata
+WIP
