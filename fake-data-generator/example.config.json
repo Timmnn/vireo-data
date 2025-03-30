@@ -8,6 +8,15 @@
         "to": "2023-12-25T13:45:30"
       },
       "period": "1h"
+    },
+    {
+      "name": "fake_MSFT",
+      "dataset_type": "Equities",
+      "daterange": {
+        "from": "2020-12-25T13:45:30",
+        "to": "2023-12-25T13:45:30"
+      },
+      "period": "1d"
     }
   ],
   "data_path": "../data/"

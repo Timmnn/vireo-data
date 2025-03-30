@@ -18,8 +18,6 @@ fn main() {
     let config = read_config("example.config.json").unwrap();
 
     for dataset in config.datasets {
-        fs::create_dir_all(format!("./data/{}", &dataset.name)).unwrap();
-
         match dataset.dataset_type.to_lowercase().as_str() {
             "equities" => {
                 let mut df = crate::generators::equities::EquitiesGenerator::generate(&dataset);
