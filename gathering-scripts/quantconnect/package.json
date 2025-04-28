@@ -1,0 +1,22 @@
+{
+  "name": "quantconnect",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "@types/csv-parse": "^1.2.5",
+    "@types/parquetjs": "^0.10.6",
+    "csv-parse": "^5.6.0",
+    "csv-parser": "^3.2.0",
+    "hono": "^4.7.1",
+    "hyparquet-writer": "^0.2.5",
+    "moment": "^2.30.1",
+    "parquetjs": "^0.11.2"
+  }
+}
